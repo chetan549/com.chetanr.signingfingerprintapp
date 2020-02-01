@@ -4,9 +4,9 @@ using WP7CordovaClassLib.Cordova.JSON;
 
 namespace Cordova.Extension.Commands
 {
-    public class Hello : BaseCommand
+    public class Signingfingerprint : BaseCommand
     {
-        public void greet(string args)
+        public void getSha1(string args)
         {
             string name = JsonHelper.Deserialize<string>(args);
             string message = "Hello, " + name;
