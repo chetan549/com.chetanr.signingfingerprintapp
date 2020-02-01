@@ -11,7 +11,7 @@ $ cordova create signingfingerprint com.chetanr.signingfingerprintapp Signingfin
 Install the plugin
 
 $ cd signingfingerprint
-$ cordova plugin add https://github.com/don/cordova-plugin-signingfingerprint.git
+$ cordova plugin add https://github.com/chetan549/com.chetanr.signingfingerprintapp.git
 
 
 Edit `www/js/index.js` and add the following code inside `onDeviceReady`
