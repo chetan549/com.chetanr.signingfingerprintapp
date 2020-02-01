@@ -1,0 +1,3 @@
+This plugin is useful to get signed fingerprint of app. This is created by Chetan Rohilla from Bhu1uelectro Pvt. Ltd.
+
+Visit https://www.bhu1u.com for more information.

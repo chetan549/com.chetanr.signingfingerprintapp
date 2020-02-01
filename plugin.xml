@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.chetanr.signingfingerprint"
+        version="0.7.0">
+
+  <name>Signingfingerprint</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/signingfingerprint.js" target="js/signingfingerprint.js"/>
+
+  <js-module src="www/signingfingerprint.js" name="signingfingerprint">
+    <clobbers target="signingfingerprint" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Signingfingerprint">
+        <param name="android-package" value="com.chetanr.plugin.Signingfingerprint"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/Signingfingerprint.java" target-dir="src/com/chetanr/plugin/"/>
+  </platform>
+
+  <platform name="ios">
+    
+    <config-file target="config.xml" parent="/widget">
+      <feature name="Signingfingerprint">
+        <param name="ios-package" value="HWPSigningfingerprint" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/HWPSigningfingerprint.h" target-dir="SigningfingerprintPlugin"/>
+    <source-file src="src/ios/HWPSigningfingerprint.m" target-dir="SigningfingerprintPlugin"/>
+  </platform>
+
+  <platform name="wp7">
+    <source-file src="src/wp7/Signingfingerprint.cs"/>
+  </platform>
+
+</plugin>

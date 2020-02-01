@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-signingfingerprint",
+  "version": "0.1.0",
+  "description": "A sample for a new cordova plugin",
+  "cordova": {
+    "id": "cordova-plugin-signingfingerprint",
+    "platforms": [
+      "android",
+      "ios",
+      "wp7"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/don/cordova-plugin-signingfingerprint.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "signingfingerprint",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Chetan Rohilla",
+  "license": "Free",
+  "bugs": {
+    "url": "https://github.com/don/cordova-plugin-signingfingerprint/issues"
+  },
+  "homepage": "https://github.com/don/cordova-plugin-signingfingerprint#readme"
+}
