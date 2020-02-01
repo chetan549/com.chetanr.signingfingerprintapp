@@ -1,6 +1,6 @@
 #import <Cordova/CDV.h>
 
-@interface HWPHello : CDVPlugin
+@interface HWPSigningfingerprint : CDVPlugin
 
 - (void) greet:(CDVInvokedUrlCommand*)command;
 
