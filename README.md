@@ -72,6 +72,8 @@ platform.ready().then(() => {
     cordova platform add android
 
     ## More Info
+    
+    Note: This plugin is only available for android now we are working on IOS and other platforms
 
     For more information on setting up Cordova see [the documentation](http://cordova.apache.org/docs/en/latest/guide/cli/index.html)
 
